@@ -20,7 +20,7 @@
 
 ***************
 
-**[Перейти к игре](https://darina837.github.io/INTERNET--/IHW/)**
+**[Перейти к игре](https://darina837.github.io/INTERNET/IHW/)**
 
 ***************
 
@@ -50,6 +50,6 @@ gameLogic.js      | Основная игровая логика
 keydown.js        | Функция, которая срабатывает при нажатии на пробел (взлёт космонавта)
 objects.js        | Все константы и переменные всех объектов
 
-**[Перейти к игре](https://darina837.github.io/INTERNET--/IHW/)**
+**[Перейти к игре](https://darina837.github.io/INTERNET/IHW/)**
       
 
