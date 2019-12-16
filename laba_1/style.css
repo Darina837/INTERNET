@@ -1,0 +1,147 @@
+.wrapper {
+	width: 60%;
+	margin: 0 20%;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #a1ddc7;
+	width: 100%;
+}
+
+.image_logo {
+	width: 200px;
+}
+
+.item {
+	text-decoration: none;
+	color: #2b2a4f;
+	margin-right: 300px;
+	font-size: 26px;
+	transition: all 0.5s ease-in-out;
+}
+
+.item:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.flex_main {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	width: 100%;
+}
+
+.main {
+	background-color: #5d75c3;
+	width: 80%;
+	padding: 50px;
+}
+
+.main>h4 {
+	text-align: center;
+}
+
+.aside {
+	background-color: #8fa5eb;
+	width: 20%;
+	padding: 5px;
+	text-align: center;
+	border: 2px solid #f2f287;
+}
+
+.aside>h5 {
+	color: #075974;
+}
+
+.variant {
+	width: 100%;
+	transition: all 1s ease-in-out;
+}
+.variant:hover {
+	width: 250%;
+}
+dt {
+	font-weight: bold;
+}
+
+dd {
+	font-style: italic;
+}
+td {
+	padding: 5px 5px;
+}
+tr {
+	text-align: center;
+}
+.pink {
+	background-color: #d4789d;
+}
+
+.yellow {
+	background-color: #f2f287;
+}
+
+.blue {
+	background-color: #64bddb;
+}
+
+.square {
+	height: 300px;
+	background-color: #86c251;
+	position: relative;
+	transition: all 0.5s ease-in-out;
+}
+.square:hover {
+	background-color: pink;
+}
+.round {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	background-color: #d29a59;
+	position: absolute;
+	margin-top: -250px;
+	margin-left: 15%;
+	transition: all 0.5s ease-in-out;
+}
+.round:hover {
+	background-color: yellow;
+}
+.star {
+	width: 100px;
+	position: absolute;
+	margin-top: -200px;
+	margin-left: 18.5%;
+	transition: all 0.5s ease-in-out;
+}
+.star:hover {
+	border: 1px dotted red;
+}
+
+.head-item {
+	background-color: pink;
+}
+
+.max-head-item {
+	background-color: yellow;
+}
+
+.min-head-item {
+	background-color: green;
+}
+
+.input:hover {
+	border: 2px solid green;
+}
+
+.search:hover {
+	background-color: yellow;
+}
+.footer {
+	text-align: center;
+	background-color: #ccd6f7;
+	width: 100%;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Laba-2</title>
+	<!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" type="image/png" href="media/ico.png">
+	<style>
+		.round {
+			background-image: url(media/pizza.jpg);
+			width: 100px;
+			height: 100px;
+			border-radius: 10px 250px 0 0;
+			border: 5px solid yellow;
+			text-align: center;
+			margin-bottom: 10px;
+			position: absolute;
+			top: 260px;
+			right: 880px;
+		}
+	</style>
+</head>
+<body class="wrapper">
+	<header class="header">
+		<strong class="logo">
+			<a href="index.html">
+	            <img src="media/logo.png" class="image_logo" alt="ХНУРЕ кафедра електронних обчислювальних машин">
+	          </a>
+		</strong>
+		<nav>
+			<a href="#" class="item"><b>Лабораторная работа №2</b></a>
+		</nav>
+	</header>
+	<div class="flex_main">
+		<main class="main">
+			<div style="background-image: url(media/pizza.jpg); width: 100px; height: 100px; margin-bottom: 10px; border-radius: 250px 10px 0 0; border: 5px solid yellow;" title="inline-описание"></div>
+			<div class="round" title="с помощью контейнера <style> в секции заголовка"></div>
+			<div id="figure1" title="подключить стилевую таблицу, расположенную во внешнем файле"></div>
+			<div id="figure2" title="подключить стилевую таблицу, расположенную во внешнем файле"></div>
+			<h4 style="color: yellow;">This is a pizza!!!</h4>
+			<h3>Задание варианта №3</h3>
+			<div class="contact">
+				<h4>КОНТАКТНАЯ ИНФОРМАЦИЯ</h4>
+				<form>
+					<table>
+						<tr>
+							<td><label>Фамилия*</label></td>
+							<td><input type="text" name="surname" placeholder="Иванов" autofocus required pattern="^[а-яА-Я]{3,20}$"></td>
+						</tr>
+						<tr>
+							<td><label>Имя*</label></td>
+							<td><input type="text" name="first_name" placeholder="Иван" required pattern="^[а-яА-Я]{3,20}$"></td>
+						</tr>
+						<tr>
+							<td><label>Отчетсво*</label></td>
+							<td><input type="text" name="patronymic" placeholder="Иванович" required pattern="^[а-яА-Я]{3,20}$"></td>
+						</tr>
+						<tr>
+							<td><label>Пол</label></td>
+							<td><select name="gender">
+								<option>Мужской</option>
+								<option>Женский</option>
+							</select></td>
+						</tr>
+						<tr>
+							<td><label>Номер телефона*</label></td>
+							<td><input type="tel" name="telephone" placeholder="380xxxxxxxxx" required pattern="^[ 0-9]+$" minlength="12" maxlength="12"></td>
+						</tr>
+						<tr>
+							<td><label>Email</label></td>
+							<td><input type="email" name="email" placeholder="example@nure.ua"></td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<label>
+	      							<input type="checkbox" name="checkbox" required>
+	      							Я согласен(-на) с <a href="#">условиями использования</a>
+	    						</label>
+	    					</td>
+						</tr>
+					</table>
+				</form>
+				<input type="submit" value="Отправить">
+			</div>
+		</main>
+
+		<aside id="aside">
+			<h3>Вариант №3</h3>
+			<ul>
+				<li>Добавить на страницу форму, оформленние полей которой зависит от корректности заполнения (valid/invalid) и обязательности.</li>
+			</ul>
+			<h3>Порядок выполнения работы</h3>
+			<ol>
+				<li>Создать простой HTML-документ, содержащий блочные элементы (они понадобятся для демонстрации использования некоторых стилей).</li>
+				<li>Показать в созданном документе три способа использования каскадных таблиц стилей:
+					<ul>
+						<li>inline-описание (используется атрибут style);</li>
+						<li>с помощью контейнера &lsaquo;style&rsaquo; в секции заголовка;</li>
+						<li>подключить внешним файлом;</li>
+					</ul>
+				</li>
+				<li>Используя селекторы CLASS и ID показать использование стилей для форматирование шрифта, текста, изменения фона документа.</li>
+				<li>Использовать абсолютное и относительное позиционирование.</li>
+				<li>Показать использование плавающей модели.</li>
+				<li>Проверить отображение созданного документа в разных браузерах.</li>
+			</ol>
+		</aside>
+	</div>
+	<footer class="footer">
+		<h4><i>Выполнила студентка группы КИУКИ-17-3 Колода Дарина&copy;</i></h4>
+	</footer>
+</body>
+</html>
